@@ -22,4 +22,8 @@ public class TempleService {
 
         templeRepository.saveAll(templeList);
     }
+
+    public List<Temple> getAllTemple() {
+        return templeRepository.findAll();
+    }
 }
